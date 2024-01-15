@@ -5,7 +5,7 @@ export function Card({ title, image }) {
     <Container>
       <img src={image} alt="#" />
       <div className="details">
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <span>TAG</span>
       </div>
     </Container>

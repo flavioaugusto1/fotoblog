@@ -45,7 +45,7 @@ export const Header = styled.header`
   }
 
   input {
-    width: 71rem;
+    flex: 1;
     padding: 1.2rem 1.6rem;
     outline: none;
 
@@ -70,7 +70,8 @@ export const Main = styled.main`
     line-height: 3.84rem;
     color: #202024;
 
-    margin-bottom: 3.6rem;
+    margin-bottom: 3.2rem;
+    padding-top: 1.2rem;
   }
 
   section {

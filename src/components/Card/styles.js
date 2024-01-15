@@ -10,12 +10,15 @@ export const Container = styled.div`
     width: 100%;
     border-top-right-radius: 0.7rem;
     border-top-left-radius: 0.7rem;
+
+    aspect-ratio: 16/9;
+    object-fit: cover;
   }
 
   .details {
     padding: 2.2rem;
 
-    h1 {
+    h2 {
       font-size: 2rem;
       line-height: 3.2rem;
       margin-bottom: 1.3rem;

@@ -70,8 +70,8 @@ export const Main = styled.main`
     line-height: 3.84rem;
     color: #202024;
 
-    margin-bottom: 3.2rem;
     padding-top: 1.2rem;
+    margin-bottom: 3.2rem;
   }
 
   section {
@@ -95,5 +95,6 @@ export const Footer = styled.footer`
 `;
 
 export const CameraIcon = styled(FaCamera)`
-  font-size: 3.5rem;
+  width: 3.5rem;
+  height: 2.75rem;
 `;

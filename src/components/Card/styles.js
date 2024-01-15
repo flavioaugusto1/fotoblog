@@ -13,6 +13,10 @@ export const Container = styled.div`
 
     aspect-ratio: 16/9;
     object-fit: cover;
+
+    &:hover {
+      filter: hue-rotate(10deg) contrast(101%) saturate(200%);
+    }
   }
 
   .details {
@@ -26,7 +30,7 @@ export const Container = styled.div`
 
     span {
       background-color: #f5f5f5;
-      border-radius: .5rem;
+      border-radius: 0.5rem;
       padding: 0.8rem;
     }
   }

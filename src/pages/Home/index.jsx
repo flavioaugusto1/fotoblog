@@ -23,7 +23,7 @@ export function Home() {
         </ul>
         <input type="text" placeholder="Pesquise por imagens e coleções" />
         <img
-          src={Perfil}
+          src="https://github.com/flavioaugusto1.png"
           alt="Imagem de uma pessoa com barba, cabelo cortado e olhos castanhos"
         />
       </Header>

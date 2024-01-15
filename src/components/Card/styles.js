@@ -23,6 +23,7 @@ export const Container = styled.div`
 
     span {
       background-color: #f5f5f5;
+      border-radius: .5rem;
       padding: 0.8rem;
     }
   }

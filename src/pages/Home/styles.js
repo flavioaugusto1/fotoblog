@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { FaCamera } from "react-icons/fa";
 
 export const Container = styled.div`
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Header = styled.header`
   background-color: #fff;
-  height: 8rem;
+  height: 6rem;
 
   display: flex;
   align-items: center;
@@ -56,17 +56,36 @@ export const Header = styled.header`
   }
 `;
 
-export const Main = styled.main``;
+export const Main = styled.main`
+  max-width: 120rem;
+  margin: 3.6rem auto 3.6rem;
+
+  h1 {
+    font-size: 2.4rem;
+    line-height: 3.84rem;
+    color: #202024;
+
+    margin-bottom: 3.6rem;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2.2rem;
+  }
+`;
 
 export const Footer = styled.footer`
   background-color: #fff;
-  height: 8rem;
-
-  text-align: center;
-  padding-top: 2.9rem;
+  height: 5rem;
 
   font-size: 1.6rem;
   color: #323238;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const CameraIcon = styled(FaCamera)`

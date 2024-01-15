@@ -2,10 +2,15 @@ import styled from "styled-components";
 import { FaCamera } from "react-icons/fa";
 
 export const Container = styled.div`
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
+
+  .wrap {
+    padding: 1.6rem 3.2rem;
+    width: min(112rem, 100%);
+    margin: 0 auto;
+  }
 `;
 
 export const Header = styled.header`
@@ -14,15 +19,15 @@ export const Header = styled.header`
 
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 2rem;
 
   padding: 2rem;
 
   ul {
     display: flex;
+    gap: 3rem;
     list-style: none;
-    gap: 7.5rem;
 
     li {
       font-size: 2rem;
@@ -57,8 +62,8 @@ export const Header = styled.header`
 `;
 
 export const Main = styled.main`
-  max-width: 120rem;
-  margin: 3.6rem auto 3.6rem;
+  background-color: #f5f5f5;
+  overflow-y: scroll;
 
   h1 {
     font-size: 2.4rem;

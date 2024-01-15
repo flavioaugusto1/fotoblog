@@ -5,6 +5,8 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   :root{
@@ -12,7 +14,6 @@ export default createGlobalStyle`
   }
 
   body {
-    background-color: #F5F5F5;
     font-family: 'Mulish', sans-serif;
   }
 `;

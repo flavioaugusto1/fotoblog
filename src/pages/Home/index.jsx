@@ -15,7 +15,7 @@ import Setup9 from "../../assets/setup9.png";
 export function Home() {
   return (
     <Container>
-      <Header>
+      <Header className="wrap">
         <CameraIcon />
         <ul>
           <li>Home</li>
@@ -28,20 +28,22 @@ export function Home() {
         />
       </Header>
       <Main>
-        <h1>Galeria</h1>
-        <section>
-          <Card title={"Workspace elétrica"} image={Setup1} />
-          <Card title={"Dark and red"} image={Setup2} />
-          <Card title={"Organização e grids"} image={Setup3} />
-          <Card title={"Colméia"} image={Setup4} />
-          <Card title={"Setup de escritor"} image={Setup5} />
-          <Card title={"Ergonomia e cores"} image={Setup6} />
-          <Card title={"Show de luzes"} image={Setup7} />
-          <Card title={"Deep purple"} image={Setup8} />
-          <Card title={"Multi-Screen"} image={Setup9} />
-        </section>
+        <div className="wrap">
+          <h1>Galeria</h1>
+          <section>
+            <Card title={"Workspace elétrica"} image={Setup1} />
+            <Card title={"Dark and red"} image={Setup2} />
+            <Card title={"Organização e grids"} image={Setup3} />
+            <Card title={"Colméia"} image={Setup4} />
+            <Card title={"Setup de escritor"} image={Setup5} />
+            <Card title={"Ergonomia e cores"} image={Setup6} />
+            <Card title={"Show de luzes"} image={Setup7} />
+            <Card title={"Deep purple"} image={Setup8} />
+            <Card title={"Multi-Screen"} image={Setup9} />
+          </section>
+        </div>
       </Main>
-      <Footer>
+      <Footer className="wrap">
         <p>&copy; 2023 - fladev</p>
       </Footer>
     </Container>

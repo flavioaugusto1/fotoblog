@@ -11,10 +11,13 @@ export function Home() {
           <li>Galeria</li>
         </ul>
         <input type="text" placeholder="Pesquise por imagens e coleções" />
-        <img src={Perfil} alt="Imagem de uma pessoa com barba, cabelo cortado e olhos castanhos" />
+        <img
+          src={Perfil}
+          alt="Imagem de uma pessoa com barba, cabelo cortado e olhos castanhos"
+        />
       </Header>
       <Main></Main>
-      <Footer></Footer>
+      <Footer>&copy; 2023 - fladev</Footer>
     </Container>
   );
 }

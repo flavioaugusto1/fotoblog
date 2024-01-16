@@ -14,6 +14,8 @@ export const Container = styled.div`
     aspect-ratio: 16/9;
     object-fit: cover;
 
+    transition: all 1s;
+
     &:hover {
       filter: hue-rotate(10deg) contrast(101%) saturate(200%);
     }

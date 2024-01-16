@@ -1,7 +1,6 @@
 import { Container, Header, Main, Footer, CameraIcon } from "./styles";
 import { Card } from "../../components/Card";
 
-import Perfil from "../../assets/perfil.jpg";
 import Setup1 from "../../assets/setup1.png";
 import Setup2 from "../../assets/setup2.png";
 import Setup3 from "../../assets/setup3.png";
@@ -31,7 +30,7 @@ export function Home() {
         <div className="wrap">
           <h1>Galeria</h1>
           <section>
-            <Card title={"Workspace elétrica"} image={Setup1} />
+            <Card title={"Workspace elétrica"} image={Setup1} className="card1"/>
             <Card title={"Dark and red"} image={Setup2} />
             <Card title={"Organização e grids"} image={Setup3} />
             <Card title={"Colméia"} image={Setup4} />

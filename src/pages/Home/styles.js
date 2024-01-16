@@ -59,6 +59,16 @@ export const Header = styled.header`
     width: 4.2rem;
     border-radius: 50%;
   }
+
+  animation: topDown .5s forwards;
+
+  @keyframes topDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+    }
+  }
 `;
 
 export const Main = styled.main`
@@ -92,6 +102,16 @@ export const Footer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  animation: downTop .5s forwards;
+
+  @keyframes downTop {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+    }
+  }
 `;
 
 export const CameraIcon = styled(FaCamera)`

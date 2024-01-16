@@ -60,7 +60,7 @@ export const Header = styled.header`
     border-radius: 50%;
   }
 
-  animation: topDown .5s forwards;
+  animation: topDown 0.5s forwards;
 
   @keyframes topDown {
     0% {
@@ -103,7 +103,7 @@ export const Footer = styled.footer`
   align-items: center;
   justify-content: center;
 
-  animation: downTop .5s forwards;
+  animation: downTop 0.5s forwards;
 
   @keyframes downTop {
     0% {

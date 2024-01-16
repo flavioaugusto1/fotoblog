@@ -30,15 +30,51 @@ export function Home() {
         <div className="wrap">
           <h1>Galeria</h1>
           <section>
-            <Card title={"Workspace elétrica"} image={Setup1} className="card1"/>
-            <Card title={"Dark and red"} image={Setup2} />
-            <Card title={"Organização e grids"} image={Setup3} />
-            <Card title={"Colméia"} image={Setup4} />
-            <Card title={"Setup de escritor"} image={Setup5} />
-            <Card title={"Ergonomia e cores"} image={Setup6} />
-            <Card title={"Show de luzes"} image={Setup7} />
-            <Card title={"Deep purple"} image={Setup8} />
-            <Card title={"Multi-Screen"} image={Setup9} />
+            <Card
+              title={"Workspace elétrica"}
+              image={Setup1}
+              style={{ animationDelay: 0.2 + "s" }}
+            />
+            <Card
+              title={"Dark and red"}
+              image={Setup2}
+              style={{ animationDelay: 0.4 + "s" }}
+            />
+            <Card
+              title={"Organização e grids"}
+              image={Setup3}
+              style={{ animationDelay: 0.8 + "s" }}
+            />
+            <Card
+              title={"Colméia"}
+              image={Setup4}
+              style={{ animationDelay: 1.2 + "s" }}
+            />
+            <Card
+              title={"Setup de escritor"}
+              image={Setup5}
+              style={{ animationDelay: 1.6 + "s" }}
+            />
+            <Card
+              title={"Ergonomia e cores"}
+              image={Setup6}
+              style={{ animationDelay: 1.8 + "s" }}
+            />
+            <Card
+              title={"Show de luzes"}
+              image={Setup7}
+              style={{ animationDelay: 2.2 + "s" }}
+            />
+            <Card
+              title={"Deep purple"}
+              image={Setup8}
+              style={{ animationDelay: 2.4 + "s" }}
+            />
+            <Card
+              title={"Multi-Screen"}
+              image={Setup9}
+              style={{ animationDelay: 2.8 + "s" }}
+            />
           </section>
         </div>
       </Main>

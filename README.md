@@ -1,8 +1,39 @@
-# React + Vite
+# Fotoblog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto feito como desafio no curso Explorer da Rocketseats. O projeto tem como objetivo técnico praticar conceitos de CSS como grid, flex e animações que foram aprendidos no curso.
 
-Currently, two official plugins are available:
+## Instalação
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Lembre de ter o Node.js instalado em sua máquina para que consiga executar o projeto.
+
+1. Clone o repositório:
+
+   ```bash
+     git clone https://github.com/flavioaugusto1/fotoblog.git
+
+2. Na sua máquina navegue até o repositório:
+
+   ```bash
+   cd fotoblog
+
+3. Instale as depêndencias:
+
+   ```bash
+   npm install
+
+## Uso
+1. Inicie o aplicativo:
+
+   ```bash
+   npm run dev
+
+## Recursos
+
+- **React**: Uma biblioteca JavaScript para construir interfaces de usuário.
+
+## Projeto
+
+Desktop:
+![image](https://github.com/flavioaugusto1/fotoblog/assets/54561399/eaf4e0fc-c737-4469-b3ed-be027749986a)
+
+https://github.com/flavioaugusto1/fotoblog/assets/54561399/f090fc72-e1ca-4483-8b64-ea00b25fa2bf

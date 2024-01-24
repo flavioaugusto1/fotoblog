@@ -1,6 +1,6 @@
 # Fotoblog
 
-Projeto feito como desafio no curso Explorer da Rocketseats. O projeto tem como objetivo técnico praticar conceitos de CSS como grid, flex e animações que foram aprendidos no curso.
+Projeto feito como desafio no curso Explorer da Rocketseat. O projeto tem como objetivo técnico praticar conceitos de CSS como grid, flex e animações que foram aprendidos no curso.
 
 ## Instalação
 
